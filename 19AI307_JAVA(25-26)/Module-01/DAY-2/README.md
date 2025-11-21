@@ -56,13 +56,16 @@ public class Demo
     {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
-       if (a >= 2 && a <= 6 && a % 2 == 0) {
+        if (a >= 2 && a <= 6 && a % 2 == 0) {
             System.out.println("Lights flicker");
-        } else if (a>= 7 && a <= 11 && a % 2 != 0) {
+        }
+        else if (a>= 7 && a <= 11 && a % 2 != 0) {
             System.out.println("Lights off");
-        } else if (a == 12) {
+        }
+        else if (a == 12) {
             System.out.println("Lights red");
-        } else {
+        }
+        else {
             System.out.println("Dark house");
         }
     }
@@ -75,6 +78,7 @@ public class Demo
 
 ## RESULT:
 Thus, the Java program to implement conditional statements for the haunted house lighting system was successfully executed.
+
 
 
 
