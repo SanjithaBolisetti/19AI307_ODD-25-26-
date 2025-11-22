@@ -62,13 +62,16 @@ public class Main {
         if (bankName.equalsIgnoreCase("SBI")) {
             bank = new SBI();
             System.out.println("SBI Rate: " + bank.getInterestRate() + "%");
-        } else if (bankName.equalsIgnoreCase("ICICI")) {
+        }
+        else if (bankName.equalsIgnoreCase("ICICI")) {
             bank = new ICICI();
             System.out.println("ICICI Rate: " + bank.getInterestRate() + "%");
-        } else if (bankName.equalsIgnoreCase("HDFC")) {
+        }
+        else if (bankName.equalsIgnoreCase("HDFC")) {
             bank = new HDFC();
             System.out.println("HDFC Rate: " + bank.getInterestRate() + "%");
-        } else {
+        }
+        else {
             System.out.println("Invalid bank name.");
         }
     }
@@ -87,6 +90,7 @@ public class Main {
 ## RESULT:
 
 Thus, the Java program demonstrating Polymorphism using Method Overriding was successfully executed.
+
 
 
 
