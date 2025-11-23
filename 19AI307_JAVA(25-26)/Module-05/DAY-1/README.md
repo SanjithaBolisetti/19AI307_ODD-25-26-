@@ -18,7 +18,7 @@ To write a Java program that writes character data into a text file using the Fi
  ```
 Program to implement a InputStreamReader using Java
 Developed by: Bolisetti Sanjitha
-Register Number: 212222240117
+Register Number: 21222204007
 ```
 
 ## SOURCE CODE:
@@ -52,6 +52,7 @@ public class FileWriterExampleUserInput {
 
 ## RESULT:
 Thus, the Java program to write characters to a file using FileWriter was successfully executed and verified.
+
 
 
 
